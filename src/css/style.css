@@ -203,6 +203,7 @@ code {
 .main {
   width: 100%;
   flex: 1;
+  overflow: hidden;
   height: auto;
   overflow-y: auto;
 }
@@ -233,9 +234,10 @@ code {
 }
 
 .main .tip dl dt {
-  width: 2.13333rem;
-  height: 2.13333rem;
+  width: 1.86667rem;
+  height: 1.86667rem;
   padding: 0.16rem;
+  margin: 0 auto;
 }
 
 .main .tip dl dt img {
@@ -268,7 +270,9 @@ code {
 
 .main .parent dd {
   flex: 1;
+  width: 90%;
   height: 100%;
+  overflow: hidden;
 }
 
 .main .parent dd img {
@@ -284,6 +288,7 @@ code {
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 10px;
 }
 
 .main .pic h4 {
@@ -298,7 +303,6 @@ code {
   align-items: center;
   width: 50%;
   height: 3.2rem;
-  margin-top: 10px;
   border-top: 1px solid #ccc;
   border-left: 1px solid #ccc;
 }
